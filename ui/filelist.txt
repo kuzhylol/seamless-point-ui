@@ -1,0 +1,10 @@
+screens/ui_idle.c
+screens/ui_device.c
+ui.c
+components/ui_comp_hook.c
+ui_helpers.c
+ui_events.c
+images/ui_img_bt2_png.c
+images/ui_img_1265400908.c
+images/ui_img_on2_png.c
+images/ui_img_off2_png.c

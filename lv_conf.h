@@ -853,7 +853,7 @@
 #define LV_USE_LINUX_FBDEV      1
 #if LV_USE_LINUX_FBDEV
     #define LV_LINUX_FBDEV_BSD           0
-    #define LV_LINUX_FBDEV_RENDER_MODE   LV_DISPLAY_RENDER_MODE_DIRECT
+    #define LV_LINUX_FBDEV_RENDER_MODE   LV_DISPLAY_RENDER_MODE_PARTIAL
     #define LV_LINUX_FBDEV_BUFFER_COUNT  1
     #define LV_LINUX_FBDEV_BUFFER_SIZE   60
 #endif
@@ -945,7 +945,7 @@
 #define LV_USE_DEMO_MULTILANG       0
 
 /*Widget transformation demo*/
-#define LV_USE_DEMO_TRANSFORM       1
+#define LV_USE_DEMO_TRANSFORM       0
 
 /*Demonstrate scroll settings*/
 #define LV_USE_DEMO_SCROLL          0
